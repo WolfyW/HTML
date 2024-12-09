@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Описание списков</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    </head>
+    <body>
+
+        <iframe src="menu.html" width="700" height="50">
+        </iframe>
+        <h2>Списки</h2>
+        <h2>Нумерованный список</h2>
+        <details>
+            <summary>
+                Нумерованный список
+            </summary>
+            <h3>Обыйчный стиль</h3>
+            <ol>
+                <li class="colorBox">
+                    <p> другой текст </p>
+                    Элемент
+                </li>
+                <li>
+                    <p> другой текст </p>
+                    <span class="colorBox">Элемент</span>
+                </li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ol>
+    
+            <ol style="list-style-type:decimal;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ol>
+    
+            <h3>Стиль с нулём</h3>
+    
+            <ol style="list-style-type:decimal-leading-zero;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ol>
+    
+            <h3>Римские цифры</h3>
+    
+            <ol style="list-style-type:lower-roman;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ol>
+    
+            <ol style="list-style-type:upper-roman;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ol>
+    
+            <h3>Буквы</h3>
+    
+            <ol style="list-style-type:lower-alpha;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ol>
+    
+            <ol style="list-style-type:upper-alpha;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ol>
+    
+            <h3>вложенные элементы</h3>
+    
+            <ol style="list-style-type:decimal;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <ol style="list-style-type:lower-alpha;">
+                    <li>Элемент</li>
+                    <li>Элемент</li>
+                    <li>Элемент</li>
+                    <li>Элемент</li>
+                </ol>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ol>
+        </details>
+        <h2>Ненумерованный список</h2>
+        <details>
+            <summary>Ненумерованный список</summary>
+            <h3>Обыйчный стиль</h3>
+            <ul>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ul>
+    
+            <ul style="list-style-type:disc;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ul>
+            <h3>Пустые крудочки</h3>
+            <ul style="list-style-type:circle;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ul>
+    
+            <h3>Квадратики</h3>
+    
+            <ul style="list-style-type:square;">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ul>
+            <h3>Картинки</h3>
+            <ul style="list-style-image:url(database.png);">
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+                <li>Элемент</li>
+            </ul>
+        </details>
+
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const o = urlParams.get('Other');
+            const n = urlParams.get('Name');
+            console.log(o);
+            console.log(n);
+        </script>
+    </body>
+</html>

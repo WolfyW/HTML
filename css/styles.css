@@ -1,0 +1,68 @@
+td {
+    width: 60px;
+    height: 60px;
+    border: solid 1px silver;
+    text-align: center;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #9966cc;
+}
+div {
+    width: 170px;
+    height: 70px;
+    margin: 20px;
+    font-weight: 700;
+    font-style: oblique;
+    color: chocolate;
+}
+.yellowBox {
+    width: 120px;
+    background-color: rgb(255, 255, 0, 0.7);
+    margin: 5px;
+}
+.colorBox {
+    background-color: rgb(9, 92, 27);
+}
+img {
+    opacity: 0.5;
+}
+
+.colorTextRed {
+   color: red; 
+}
+.colorTextGreen {
+    color: green; 
+}
+#name_name {
+    height: 100px;
+    color: pink;
+}
+h1, h2, h3, .colorPurple {
+ color: purple;
+}
+
+div a {
+    color: red;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.colorBox a {
+    color: orange;
+    font-size: large;
+    background-color: transparent;
+}
+
+li .colorBox {
+    color: red;
+}
+
+li.colorBox {
+    color: purple;
+}
+
+ol ol {
+    font-style: italic;
+}
